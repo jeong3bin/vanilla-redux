@@ -1,10 +1,10 @@
 import React from "react";
 
-function ToDo() {
+function ToDo({text}) {
     return (
-        <Li>
+        <li>
             {text}<button>DEL</button>
-        </Li>
+        </li>
     );
 }
 
